@@ -62,3 +62,55 @@ Stringvfruits[] = {"apple", "mango", "orange"};
         // length of array
         System.out.println(marks.length);
 ```
+
+## Passing arrays as argument :
+
+Arrays are passed by reference
+
+```java
+package Array;
+
+import java.util.Scanner;
+
+public class Array {
+    public static void update(int marks[], int x){
+         x = x*2;
+        for(int i=0; i< marks.length; i++){
+            marks[i] = marks[i] + 1;
+        }
+    }
+    public static void main(String[] args) {
+        // Passing arrays as argument
+        int marks[] = {98, 99, 97};
+        int nonChangable = 5;
+        update(marks, nonChangable);
+
+        //print our marks
+        for(int i=0; i<marks.length; i++){
+            System.out.print(marks[i] + " ");
+        }
+        System.out.println(nonChangable);
+    }
+}
+
+```
+
+## Linear Search :
+
+**Time Complexity :** O(n)
+
+![Linear Searc](./img/image.png)
+
+### Largest and Smallest Number :
+
+- -Infinity ==> Integer.MIN_VALUE
+- +Infinity ==> Integer.MAX_VALUE  
+  **Time Complexity:** O(n)
+
+  ![Alt text](./img/image_1.png)
+
+## Binary Search :
+
+<mark> prerequisite - sorted arrays</mark>
+
+![Binary Search](./img/image_2.png)
