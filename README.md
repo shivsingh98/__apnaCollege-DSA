@@ -154,3 +154,17 @@ public class BinarySearch {
 ![TC](./img/image_3.png)
 
 ![Alt text](./img/image_4.png)
+
+**Total number of pairs in an Array: for n elements**  
+`tp = n(n-1)/2`
+
+## Print SubArray:
+
+a continuous part of array
+
+![subArray](./img/image_5.png)
+
+**Total number of subArrays in an Array: for n elements**  
+`tp = n(n+1)/2`
+
+"\n" ==> for new line.
