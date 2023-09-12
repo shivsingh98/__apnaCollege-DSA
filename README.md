@@ -168,3 +168,38 @@ a continuous part of array
 `tp = n(n+1)/2`
 
 "\n" ==> for new line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Sorting :
+Arrange in a order.  
+## Basic Sorting Algorithms :   
+
+- **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
+- **Counting Sort** (Advance)
+
+## Bubble Sort :
+
+![buble sort](./img/image_6.png)  
+![buble sort](./img/image_7.png)  
+
+
