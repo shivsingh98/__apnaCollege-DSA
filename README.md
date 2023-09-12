@@ -114,3 +114,43 @@ public class Array {
 <mark> prerequisite - sorted arrays</mark>
 
 ![Binary Search](./img/image_2.png)
+
+```java
+
+package Array;
+
+public class BinarySearch {
+
+    public static int binarySearch(int numbers[], int key){
+        int start = 0, end = numbers.length-1;
+
+        while(start <= end){
+            int mid = (start + end)/2;
+
+            //comparison
+            if(numbers[mid] == key){ // found
+                return mid;
+            }
+            if(numbers[mid] < key){
+                start = mid+1;
+            }else{
+                end = mid -1;
+            }
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
+        int numbers[] = {2, 4, 6, 8, 10, 12, 14};
+        int key = 10;
+
+        System.out.println("Index for key is : " + binarySearch(numbers, key));
+    }
+}
+
+```
+
+**Time Complexity of Binary Search** ==> O(log n)
+
+![TC](./img/image_3.png)
+
+![Alt text](./img/image_4.png)
